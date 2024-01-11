@@ -1,0 +1,5 @@
+langchain
+langchain_openai
+openai>=1
+weaviate-client
+tiktoken
