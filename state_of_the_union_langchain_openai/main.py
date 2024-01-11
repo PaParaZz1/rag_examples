@@ -84,5 +84,8 @@ def main_without_rag():
 
 
 if __name__ == "__main__":
+    logging.getLogger().setLevel(logging.INFO)
+    logging.info('main_with_rag starts...')
     main_with_rag()
+    logging.info('main_without_rag starts...')
     main_without_rag()
